@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+/*----------header-section--------*/
+.banner-section{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+header{
+    padding: 10px 0;
+}
+.title-part{
+    width: 20%;
+    float: left;
+    padding: 10px 0;
+}
+.title-part h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.title-part h5{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{}
+nav ul li{
+    float: right;
+}
+nav ul li a{
+    color: #fff;
+    padding: 15px 18px;
+    font-size: 19px;
+    display: block;
+}
+.border-pix{
+        border: 1px solid;
+    border-radius: 50px;
+    padding: 7px 25px;
+    margin: 7px 0;
+
+}
+nav ul li a:hover{
+    background-color: ##fb2056;
+    color: red;
+}
+.heading{
+    padding: 10em 0;
+    text-align: center;
+    color: #fff;
+}
+.heading h3{
+    font-size: 20px;
+    font-style: italic;
+}
+.heading h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    padding: 15px 0;
+}
+.heading button{
+    background-color: #FB2056;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 19px;
+    border: 0;
+    letter-spacing: 4px;
+}
+.heading button a{
+    padding: 10px -1px;
+    color: #fff;
+    background: #FB2056;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.heading button a:hover{
+
+}
+/*-------header-section-------*/
+
+/*-- text part --*/
+.text-part{
+    background-color: #F4F5F9;
+}
+.text{
+    text-align: center;
+    padding: 50px;
+    /* font-style: italic; */
+    color: #93999F;
+}
+.text p{
+    font-size: 19px;
+    font-style: italic;
+}
+.text h6{
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+/*-- text part --*/
+
+/*----event-section----*/
+.event-section{
+    overflow: hidden;
+    padding: 50px 0;
+}
+.event-text{
+    padding: 30px;
+    text-align: center;
+}
+.event-text h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.image-part{
+    text-align: center;
+}
+.image-box{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.image-box img{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+.image-box h3{
+    text-align: center;
+    padding: 1em;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.image-box p{
+    padding: 5px 0;
+    color: #BCC5C7;
+    font-size: 18px;
+}
+.image-box a{
+    color: #FB2056;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+/*----event-section----*/
+
+/*---explore-section----*/
+.explore-section{
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    overflow: hidden;
+    padding: 6em 0;
+}
+.explore-world{
+    width: 50%;
+    float: right;
+}
+.explore-world h1{
+    color: #FFF;
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 300px;
+}
+.explore-world p{
+    color: #fff;
+    padding: 42px 0;
+    font-size: 18px;
+}
+.explore-world a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.world{}
+/*---explore-section----*/
+
+/*---tour-section-----*/
+.tour-section{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.tour-part{
+    width: 33.33%;
+    float: left;
+}
+.tour-part h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.tour-part p{
+    font-size: 18px;
+    padding: 2em 0;
+}
+.tour-part button{
+    background-color: #FB2056;
+    padding: 10px 10px;
+    border-radius: 19px;
+    border: 0;
+}
+.tour-part button a{
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.tour-part .im-one{
+    padding: 6px;
+}
+.im-one img{
+    
+max-width: 100%;
+    
+width: 100%;
+}
+/*---footer-section----*/
+footer{
+    background-color: #191919;
+    color: #d9d7d7;
+    text-align: center;
+    padding: 15px 0;
+}
+.footer-text{
+    padding: 15px 0;
+    font-size: 18px;
+}
+.footer-text p{}
+.copyright{
+    font-size: 18px;
+}
+.copyright p{}
